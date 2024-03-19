@@ -1,0 +1,236 @@
+{
+	"info": {
+		"_postman_id": "f18f97da-b661-47a0-8f37-c5e4794ed615",
+		"name": "jsonRpc",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32225845"
+	},
+	"item": [
+		{
+			"name": "getExample",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"jsonrpc\": \"2.0\",\r\n  \"method\": \"get\",\r\n  \"params\": {\r\n    \"fqn\": \"serviceCall\",\r\n    \"query\": {\r\n      \"UUID\": \"serviceCall$861450586\"\r\n    },\r\n    \"view\": [\r\n      \"number\",\r\n      \"creationDate\",\r\n      \"agreement\",\r\n      \"wayAddressing\"\r\n    ]\r\n  },\r\n  \"id\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://{{HOST}}/sd/services/rest/exec-post?func=modules.jsonRpc.process&params=request,response,user&raw=true",
+					"protocol": "https",
+					"host": [
+						"{{HOST}}"
+					],
+					"path": [
+						"sd",
+						"services",
+						"rest",
+						"exec-post"
+					],
+					"query": [
+						{
+							"key": "func",
+							"value": "modules.jsonRpc.process"
+						},
+						{
+							"key": "params",
+							"value": "request,response,user"
+						},
+						{
+							"key": "raw",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "findExample",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"jsonrpc\": \"2.0\",\r\n  \"method\": \"find\",\r\n  \"params\": {\r\n    \"fqn\": \"serviceCall\",\r\n    \"query\": {\r\n      \"number\" : {\r\n        \"method\": \"gt\",\r\n        \"params\": {\r\n          \"args\": [\r\n            642758\r\n          ]\r\n        }\r\n      }\r\n    },\r\n    \"view\": [\r\n      \"number\",\r\n      \"creationDate\",\r\n      \"agreement\",\r\n      \"category\"\r\n    ],\r\n    \"limit\": 10,\r\n    \"offset\": 0\r\n  },\r\n  \"id\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://{{HOST}}/sd/services/rest/exec-post?func=modules.jsonRpc.process&params=request,response,user&raw=true",
+					"protocol": "https",
+					"host": [
+						"{{HOST}}"
+					],
+					"path": [
+						"sd",
+						"services",
+						"rest",
+						"exec-post"
+					],
+					"query": [
+						{
+							"key": "func",
+							"value": "modules.jsonRpc.process"
+						},
+						{
+							"key": "params",
+							"value": "request,response,user"
+						},
+						{
+							"key": "raw",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "createExample",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"jsonrpc\": \"2.0\",\r\n  \"method\": \"create\",\r\n  \"params\": {\r\n    \"fqn\": \"serviceCall$request\",\r\n    \"attrs\": {\r\n        \"clientName\" : \"Казанцев Егор\",\r\n        \"clientEmail\" : \"myemail@somedomain.com\",\r\n        \"clientPhone\" : \"8(800)555-35-35\",\r\n        \"service\" : \"slmService$846227001\",\r\n        \"agreement\" : \"agreement$181422901\",\r\n        \"shortDescr\" : \"Какая то тема\",\r\n        \"descriptionRTF\" : \"бр<br>бр\"\r\n    },\r\n    \"view\": [\r\n      \"number\",\r\n      \"UUID\",\r\n      \"state\"\r\n    ]\r\n  },\r\n  \"id\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://{{HOST}}/sd/services/rest/exec-post?func=modules.jsonRpc.process&params=request,response,user&raw=true",
+					"protocol": "https",
+					"host": [
+						"{{HOST}}"
+					],
+					"path": [
+						"sd",
+						"services",
+						"rest",
+						"exec-post"
+					],
+					"query": [
+						{
+							"key": "func",
+							"value": "modules.jsonRpc.process"
+						},
+						{
+							"key": "params",
+							"value": "request,response,user"
+						},
+						{
+							"key": "raw",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "editExample",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"jsonrpc\": \"2.0\",\r\n  \"method\": \"edit\",\r\n  \"params\": {\r\n    \"uuid\": \"serviceCall$861538701\",\r\n    \"attrs\": {\r\n        \"shortDescr\" : \"новая тема\",\r\n        \"descriptionRTF\" : \"новое описание\"\r\n    },\r\n    \"view\": [\r\n      \"shortDescr\",\r\n      \"descriptionRTF\",\r\n      \"UUID\"\r\n    ]\r\n  },\r\n  \"id\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://{{HOST}}/sd/services/rest/exec-post?func=modules.jsonRpc.process&params=request,response,user&raw=true",
+					"protocol": "https",
+					"host": [
+						"{{HOST}}"
+					],
+					"path": [
+						"sd",
+						"services",
+						"rest",
+						"exec-post"
+					],
+					"query": [
+						{
+							"key": "func",
+							"value": "modules.jsonRpc.process"
+						},
+						{
+							"key": "params",
+							"value": "request,response,user"
+						},
+						{
+							"key": "raw",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "value",
+				"value": "{{ACCESS_KEY}}",
+				"type": "string"
+			},
+			{
+				"key": "key",
+				"value": "accessKey",
+				"type": "string"
+			},
+			{
+				"key": "in",
+				"value": "query",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "HOST",
+			"value": ""
+		},
+		{
+			"key": "ACCESS_KEY",
+			"value": ""
+		}
+	]
+}

@@ -1,0 +1,168 @@
+{
+  "main": {
+    "id": "fe5fa9266fb45ab5",
+    "type": "split",
+    "children": [
+      {
+        "id": "4040774c5bce8e15",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c5386e089271b323",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a9b51d671cf09ccd",
+    "type": "split",
+    "children": [
+      {
+        "id": "1b098f07b224f65a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6bc8612b3a942451",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d7b6a3c800468e07",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "10f05269e1440862",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "970acffae2b32722",
+    "type": "split",
+    "children": [
+      {
+        "id": "e9021365f4c12363",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a09e668883bb8a12",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d1ada08c9a199b10",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "21cf363c7cbfaa2b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b6db1526da363d33",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "c5386e089271b323",
+  "lastOpenFiles": [
+    "jsonRpc (unofficial) documentation.md",
+    "README.md",
+    "jsonrpc.postman_collection.json",
+    "jsonrpc.postman_collection (4).json",
+    "assets/reks/sd/jsonRpc/op.md",
+    "assets/reks/sd/jsonRpc/get.md",
+    "doc/cond.md",
+    "doc/main.md",
+    "doc/create.md",
+    "doc/edit.md",
+    "doc/find.md",
+    "doc/get.md",
+    "assets/reks/sd/jsonRpc",
+    "assets/reks/sd",
+    "assets/reks",
+    "assets"
+  ]
+}
